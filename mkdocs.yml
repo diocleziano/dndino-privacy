@@ -1,0 +1,226 @@
+site_name: DnDino Guide
+site_description: Complete guide to using DnDino
+site_url: https://example.local/dndino
+docs_dir: docs
+not_in_nav: |
+  page-template.md
+  images/README.md
+markdown_extensions:
+  - attr_list
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.tracking
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: it
+          name: Italiano
+          build: true
+          site_name: Guida DnDino
+          site_description: Guida completa all'utilizzo di DnDino
+          nav:
+            - Home: index.md
+            - Iniziare: getting-started/overview.md
+            - Sezioni:
+                - Home Page: sections/homepage.md
+                - Eroi, PNG e Mostri: sections/characters.md
+                - Avventura: sections/adventure.md
+                - Luoghi e Quest: sections/places.md
+                - Mappe concettuali: sections/concept-maps.md
+                - Mappe interattive: sections/interactive-maps.md
+                - Combattimento: sections/combat.md
+                - Sessione live: sections/live-session.md
+                - Impostazioni: sections/settings.md
+            - Supporto:
+                - FAQ: support/faq.md
+                - Glossario: support/glossary.md
+        - locale: en
+          default: true
+          name: English
+          build: true
+          site_name: DnDino Guide
+          site_description: Complete guide to using DnDino
+          nav:
+            - Home: index.md
+            - Getting Started: getting-started/overview.md
+            - Sections:
+                - Home Page: sections/homepage.md
+                - Heroes, NPCs, and Monsters: sections/characters.md
+                - Adventure: sections/adventure.md
+                - Places and Quests: sections/places.md
+                - Concept Maps: sections/concept-maps.md
+                - Interactive Maps: sections/interactive-maps.md
+                - Combat: sections/combat.md
+                - Live Session: sections/live-session.md
+                - Settings: sections/settings.md
+            - Support:
+                - FAQ: support/faq.md
+                - Glossary: support/glossary.md
+        - locale: fr
+          name: Français
+          build: true
+          site_name: Guide DnDino
+          site_description: Guide complet d'utilisation de DnDino
+          nav:
+            - Accueil: index.md
+            - Demarrer: getting-started/overview.md
+            - Sections:
+                - Page d'accueil: sections/homepage.md
+                - Heros, PNJ et Monstres: sections/characters.md
+                - Aventure: sections/adventure.md
+                - Lieux et Quetes: sections/places.md
+                - Cartes conceptuelles: sections/concept-maps.md
+                - Cartes interactives: sections/interactive-maps.md
+                - Combat: sections/combat.md
+                - Session en direct: sections/live-session.md
+                - Reglages: sections/settings.md
+            - Support:
+                - FAQ: support/faq.md
+                - Glossaire: support/glossary.md
+        - locale: de
+          name: Deutsch
+          build: true
+          site_name: DnDino Handbuch
+          site_description: Vollstandiger Leitfaden zur Nutzung von DnDino
+          nav:
+            - Startseite: index.md
+            - Einstieg: getting-started/overview.md
+            - Bereiche:
+                - Home: sections/homepage.md
+                - Helden, NSCs und Monster: sections/characters.md
+                - Abenteuer: sections/adventure.md
+                - Orte und Quests: sections/places.md
+                - Konzeptkarten: sections/concept-maps.md
+                - Interaktive Karten: sections/interactive-maps.md
+                - Kampf: sections/combat.md
+                - Live-Sitzung: sections/live-session.md
+                - Einstellungen: sections/settings.md
+            - Support:
+                - FAQ: support/faq.md
+                - Glossar: support/glossary.md
+        - locale: es
+          name: Español
+          build: true
+          site_name: Guía DnDino
+          site_description: Guía completa para usar DnDino
+          nav:
+            - Inicio: index.md
+            - Primeros pasos: getting-started/overview.md
+            - Secciones:
+                - Pagina de inicio: sections/homepage.md
+                - Heroes, PNJ y Monstruos: sections/characters.md
+                - Aventura: sections/adventure.md
+                - Lugares y Misiones: sections/places.md
+                - Mapas conceptuales: sections/concept-maps.md
+                - Mapas interactivos: sections/interactive-maps.md
+                - Combate: sections/combat.md
+                - Sesion en vivo: sections/live-session.md
+                - Ajustes: sections/settings.md
+            - Soporte:
+                - FAQ: support/faq.md
+                - Glosario: support/glossary.md
+        - locale: pt-PT
+          name: Português (Portugal)
+          build: true
+          site_name: Guia DnDino
+          site_description: Guia completo para utilizar o DnDino
+          theme:
+            language: pt
+          nav:
+            - Inicio: index.md
+            - Comecar: getting-started/overview.md
+            - Secoes:
+                - Pagina inicial: sections/homepage.md
+                - Herois, NPCs e Monstros: sections/characters.md
+                - Aventura: sections/adventure.md
+                - Locais e Quests: sections/places.md
+                - Mapas conceptuais: sections/concept-maps.md
+                - Mapas interativos: sections/interactive-maps.md
+                - Combate: sections/combat.md
+                - Sessao live: sections/live-session.md
+                - Definicoes: sections/settings.md
+            - Suporte:
+                - FAQ: support/faq.md
+                - Glossario: support/glossary.md
+        - locale: pt-BR
+          name: Português (Brasil)
+          build: true
+          site_name: Guia DnDino
+          site_description: Guia completo para usar o DnDino
+          theme:
+            language: pt-BR
+          nav:
+            - Inicio: index.md
+            - Primeiros passos: getting-started/overview.md
+            - Secoes:
+                - Pagina inicial: sections/homepage.md
+                - Herois, NPCs e Monstros: sections/characters.md
+                - Aventura: sections/adventure.md
+                - Locais e Quests: sections/places.md
+                - Mapas conceituais: sections/concept-maps.md
+                - Mapas interativos: sections/interactive-maps.md
+                - Combate: sections/combat.md
+                - Sessao live: sections/live-session.md
+                - Configuracoes: sections/settings.md
+            - Suporte:
+                - FAQ: support/faq.md
+                - Glossario: support/glossary.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started/overview.md
+  - Sections:
+      - Home Page: sections/homepage.md
+      - Heroes, NPCs, and Monsters: sections/characters.md
+      - Adventure: sections/adventure.md
+      - Places and Quests: sections/places.md
+      - Concept Maps: sections/concept-maps.md
+      - Interactive Maps: sections/interactive-maps.md
+      - Combat: sections/combat.md
+      - Live Session: sections/live-session.md
+      - Settings: sections/settings.md
+  - Support:
+      - FAQ: support/faq.md
+      - Glossary: support/glossary.md
