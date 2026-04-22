@@ -663,6 +663,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#quick-reordering-with-drag-and-drop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quick Reordering with Drag and Drop
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#filters-and-summary" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1502,6 +1513,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#quick-reordering-with-drag-and-drop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quick Reordering with Drag and Drop
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#filters-and-summary" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1970,6 +1992,7 @@
 </ul>
 <h2 id="normal-and-interactive-modes">Normal and Interactive Modes<a class="headerlink" href="#normal-and-interactive-modes" title="Permanent link">&para;</a></h2>
 <h3 id="normal-mode">Normal Mode<a class="headerlink" href="#normal-mode" title="Permanent link">&para;</a></h3>
+<p><img alt="Normal Places Mode" class="img-hero" src="../../images/avventura/it_LuoghiNormale.png" /></p>
 <p>This is the classic mode, designed for directly working on:</p>
 <ul>
 <li>the place tree</li>
@@ -1981,6 +2004,7 @@
 </ul>
 <p>It is the best mode for preparing and editing the adventure.</p>
 <h3 id="interactive-mode">Interactive Mode<a class="headerlink" href="#interactive-mode" title="Permanent link">&para;</a></h3>
+<p><img alt="Interactive Places Mode" class="img-hero" src="../../images/avventura/it_LuoghiInterattiva.png" /></p>
 <p><code>Interactive</code> mode becomes available when the adventure has interactive maps ready to use.</p>
 <p>In this mode, the focus shifts to map-based navigation:</p>
 <ul>
@@ -2004,15 +2028,26 @@
 <p>In tree mode, you can <strong>right-click a place</strong> to open a context menu with quick actions directly on that node.</p>
 <p>The available actions are:</p>
 <ul>
-<li><code>Remove link</code></li>
-<li><code>Add link</code></li>
 <li><code>Add sub-place</code></li>
-<li><code>Add character</code></li>
+<li><code>Add occupant</code></li>
+<li><code>Add link</code></li>
+<li><code>Remove link</code></li>
 <li><code>Create concept map</code></li>
 <li><code>Create combat</code></li>
 <li><code>Edit</code></li>
+<li><code>Delete place</code></li>
 </ul>
 <p>This menu is one of the fastest ways to build the structure of the adventure while working in the tree.</p>
+<p>In practice, it lets you reorganize the tree quickly without opening the full place form every time.</p>
+<h3 id="quick-reordering-with-drag-and-drop">Quick Reordering with Drag and Drop<a class="headerlink" href="#quick-reordering-with-drag-and-drop" title="Permanent link">&para;</a></h3>
+<p>The place tree also supports a quick drag-and-drop workflow.</p>
+<p>You can:</p>
+<ul>
+<li>change the order of sibling places</li>
+<li>move a place under another place</li>
+<li>move a place back to the root if you drag it out of a parent branch</li>
+</ul>
+<p>This makes it much faster to refine the narrative structure while preparing the adventure.</p>
 <h3 id="filters-and-summary">Filters and Summary<a class="headerlink" href="#filters-and-summary" title="Permanent link">&para;</a></h3>
 <p>The sidebar also shows a compact summary with:</p>
 <ul>
@@ -2072,6 +2107,19 @@
 <li>sit at the root of the adventure</li>
 <li>exist as a sub-place of another place</li>
 <li>also be linked in more than one point of the structure when needed</li>
+</ul>
+<p>This is useful, for example, when you want to:</p>
+<ul>
+<li>attach a whole group of places under a quest</li>
+<li>show the same place in more than one branch of the tree</li>
+<li>create different narrative paths without duplicating the record</li>
+</ul>
+<p>In these cases, the place is <strong>not duplicated</strong>: the tree only gains an additional link to the same place.</p>
+<p>When you remove a link:</p>
+<ul>
+<li>the place itself is not deleted</li>
+<li>if it has multiple parents, only the extra link is removed</li>
+<li>if it loses its only parent, it returns to the root of the tree</li>
 </ul>
 <p>The form still prevents cycles, automatically excluding the place itself and its subtree from the list of possible parents.</p>
 <h2 id="place-markers">Place Markers<a class="headerlink" href="#place-markers" title="Permanent link">&para;</a></h2>

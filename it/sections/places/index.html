@@ -663,6 +663,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#riordino-rapido-con-trascinamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Riordino rapido con trascinamento
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#filtri-e-riepilogo" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1502,6 +1513,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#riordino-rapido-con-trascinamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Riordino rapido con trascinamento
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#filtri-e-riepilogo" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1970,6 +1992,7 @@
 </ul>
 <h2 id="modalita-normale-e-interattiva">Modalità Normale e Interattiva<a class="headerlink" href="#modalita-normale-e-interattiva" title="Permanent link">&para;</a></h2>
 <h3 id="modalita-normale">Modalità Normale<a class="headerlink" href="#modalita-normale" title="Permanent link">&para;</a></h3>
+<p><img alt="Modalità Normale Luoghi" class="img-hero" src="../../../images/avventura/it_LuoghiNormale.png" /></p>
 <p>È la modalità classica, pensata per lavorare direttamente su:</p>
 <ul>
 <li>albero dei luoghi</li>
@@ -1981,6 +2004,7 @@
 </ul>
 <p>È la modalità più adatta per preparare e modificare l’avventura.</p>
 <h3 id="modalita-interattiva">Modalità Interattiva<a class="headerlink" href="#modalita-interattiva" title="Permanent link">&para;</a></h3>
+<p><img alt="Modalità Interattiva Luoghi" class="img-hero" src="../../../images/avventura/it_LuoghiInterattiva.png" /></p>
 <p>La modalità <code>Interattiva</code> si attiva quando nell’avventura esistono mappe interattive disponibili.</p>
 <p>In questa modalità il focus si sposta sulla navigazione tramite mappa:</p>
 <ul>
@@ -2004,15 +2028,26 @@
 <p>Nella modalità ad albero puoi fare <strong>tasto destro su un luogo</strong> per aprire un menu contestuale con azioni rapide direttamente su quel nodo.</p>
 <p>Le azioni disponibili nel menu contestuale sono:</p>
 <ul>
-<li><code>Rimuovi collegamento</code></li>
-<li><code>Aggiungi collegamento</code></li>
 <li><code>Aggiungi sottoluogo</code></li>
-<li><code>Aggiungi personaggio</code></li>
+<li><code>Aggiungi presenza</code></li>
+<li><code>Aggiungi collegamento</code></li>
+<li><code>Rimuovi collegamento</code></li>
 <li><code>Crea Mappa Conc.</code></li>
 <li><code>Crea Combattimento</code></li>
 <li><code>Modifica</code></li>
+<li><code>Elimina luogo</code></li>
 </ul>
 <p>Questo menu è uno dei modi più rapidi per costruire la struttura dell’avventura mentre lavori nell’albero.</p>
+<p>In pratica puoi usarlo per riorganizzare rapidamente l’albero senza dover aprire ogni volta il form completo del luogo.</p>
+<h3 id="riordino-rapido-con-trascinamento">Riordino rapido con trascinamento<a class="headerlink" href="#riordino-rapido-con-trascinamento" title="Permanent link">&para;</a></h3>
+<p>L’albero dei luoghi supporta anche una modalità rapida di riordino tramite trascinamento.</p>
+<p>Puoi:</p>
+<ul>
+<li>cambiare l’ordine dei luoghi tra fratelli</li>
+<li>spostare un luogo sotto un altro luogo</li>
+<li>riportare un luogo nella root quando lo trascini fuori da un padre</li>
+</ul>
+<p>Questo rende molto veloce rifinire la struttura narrativa mentre prepari l’avventura.</p>
 <h3 id="filtri-e-riepilogo">Filtri e riepilogo<a class="headerlink" href="#filtri-e-riepilogo" title="Permanent link">&para;</a></h3>
 <p>La sidebar mostra anche un riepilogo compatto con:</p>
 <ul>
@@ -2072,6 +2107,19 @@
 <li>stare alla radice dell’avventura</li>
 <li>vivere come sottoluogo di un altro luogo</li>
 <li>essere collegato anche in più punti della struttura, quando serve</li>
+</ul>
+<p>Questo è utile, per esempio, quando vuoi:</p>
+<ul>
+<li>agganciare un intero gruppo di luoghi sotto una quest</li>
+<li>far comparire lo stesso luogo in più rami dell’albero</li>
+<li>creare percorsi narrativi diversi senza duplicare il record</li>
+</ul>
+<p>In questi casi il luogo <strong>non viene duplicato</strong>: viene solo aggiunto un collegamento aggiuntivo nella vista ad albero.</p>
+<p>Quando rimuovi un collegamento:</p>
+<ul>
+<li>il luogo non viene eliminato</li>
+<li>se aveva più padri, viene rimosso solo il collegamento aggiuntivo</li>
+<li>se invece perde il suo unico padre, torna nella root dell’albero</li>
 </ul>
 <p>Il form impedisce comunque di creare cicli, perché esclude automaticamente il luogo stesso e il suo sottoalbero dai possibili padri selezionabili.</p>
 <h2 id="segnalazioni-del-luogo">Segnalazioni del luogo<a class="headerlink" href="#segnalazioni-del-luogo" title="Permanent link">&para;</a></h2>

@@ -663,6 +663,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#reordenacao-rapida-com-arrastar-e-soltar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reordenação rápida com arrastar e soltar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#filtros-e-resumo" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1502,6 +1513,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#reordenacao-rapida-com-arrastar-e-soltar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reordenação rápida com arrastar e soltar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#filtros-e-resumo" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1970,6 +1992,7 @@
 </ul>
 <h2 id="modo-normal-e-interativo">Modo Normal e Interativo<a class="headerlink" href="#modo-normal-e-interativo" title="Permanent link">&para;</a></h2>
 <h3 id="modo-normal">Modo Normal<a class="headerlink" href="#modo-normal" title="Permanent link">&para;</a></h3>
+<p><img alt="Modo Normal dos Locais" class="img-hero" src="../../../images/avventura/it_LuoghiNormale.png" /></p>
 <p>É o modo clássico, pensado para trabalhar diretamente sobre:</p>
 <ul>
 <li>a árvore de locais</li>
@@ -1981,6 +2004,7 @@
 </ul>
 <p>É o modo mais indicado para preparar e editar a aventura.</p>
 <h3 id="modo-interativo">Modo Interativo<a class="headerlink" href="#modo-interativo" title="Permanent link">&para;</a></h3>
+<p><img alt="Modo Interativo dos Locais" class="img-hero" src="../../../images/avventura/it_LuoghiInterattiva.png" /></p>
 <p>O modo <code>Interativo</code> fica disponível quando a aventura possui mapas interativos prontos para uso.</p>
 <p>Nesse modo, o foco muda para a navegação por mapa:</p>
 <ul>
@@ -2004,15 +2028,26 @@
 <p>No modo em árvore você pode <strong>clicar com o botão direito em um local</strong> para abrir um menu contextual com ações rápidas diretamente nesse nó.</p>
 <p>As ações disponíveis são:</p>
 <ul>
-<li><code>Remover vínculo</code></li>
-<li><code>Adicionar vínculo</code></li>
 <li><code>Adicionar sublocal</code></li>
-<li><code>Adicionar personagem</code></li>
+<li><code>Adicionar presença</code></li>
+<li><code>Adicionar vínculo</code></li>
+<li><code>Remover vínculo</code></li>
 <li><code>Criar mapa conceitual</code></li>
 <li><code>Criar combate</code></li>
 <li><code>Editar</code></li>
+<li><code>Excluir local</code></li>
 </ul>
 <p>Esse menu é uma das formas mais rápidas de construir a estrutura da aventura enquanto você trabalha na árvore.</p>
+<p>Na prática, ele permite reorganizar a árvore rapidamente sem abrir toda hora o formulário completo do local.</p>
+<h3 id="reordenacao-rapida-com-arrastar-e-soltar">Reordenação rápida com arrastar e soltar<a class="headerlink" href="#reordenacao-rapida-com-arrastar-e-soltar" title="Permanent link">&para;</a></h3>
+<p>A árvore de locais também suporta um fluxo rápido de arrastar e soltar.</p>
+<p>Você pode:</p>
+<ul>
+<li>mudar a ordem dos locais irmãos</li>
+<li>mover um local para baixo de outro local</li>
+<li>devolver um local para a raiz se arrastá-lo para fora de um ramo pai</li>
+</ul>
+<p>Isso torna muito mais rápido ajustar a estrutura narrativa durante a preparação.</p>
 <h3 id="filtros-e-resumo">Filtros e resumo<a class="headerlink" href="#filtros-e-resumo" title="Permanent link">&para;</a></h3>
 <p>A barra lateral também mostra um resumo compacto com:</p>
 <ul>
@@ -2072,6 +2107,19 @@
 <li>estar na raiz da aventura</li>
 <li>existir como sublocal de outro local</li>
 <li>estar vinculado em mais de um ponto da estrutura, quando fizer sentido</li>
+</ul>
+<p>Isso é útil, por exemplo, quando você quer:</p>
+<ul>
+<li>colocar um grupo inteiro de locais sob uma missão</li>
+<li>mostrar o mesmo local em mais de um ramo da árvore</li>
+<li>criar caminhos narrativos diferentes sem duplicar o registro</li>
+</ul>
+<p>Nesses casos, o local <strong>não é duplicado</strong>: a árvore apenas ganha um vínculo adicional para o mesmo local.</p>
+<p>Quando você remove um vínculo:</p>
+<ul>
+<li>o local não é apagado</li>
+<li>se ele tiver vários pais, apenas o vínculo extra é removido</li>
+<li>se ele perder o seu único pai, volta para a raiz da árvore</li>
 </ul>
 <p>O formulário ainda impede ciclos, excluindo automaticamente o próprio local e sua subárvore da lista de possíveis pais.</p>
 <h2 id="marcadores-do-local">Marcadores do local<a class="headerlink" href="#marcadores-do-local" title="Permanent link">&para;</a></h2>

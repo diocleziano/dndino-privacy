@@ -663,6 +663,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#schnelles-umordnen-per-drag-and-drop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schnelles Umordnen per Drag-and-drop
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#filter-und-zusammenfassung" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1502,6 +1513,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#schnelles-umordnen-per-drag-and-drop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schnelles Umordnen per Drag-and-drop
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#filter-und-zusammenfassung" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1970,6 +1992,7 @@
 </ul>
 <h2 id="normaler-und-interaktiver-modus">Normaler und Interaktiver Modus<a class="headerlink" href="#normaler-und-interaktiver-modus" title="Permanent link">&para;</a></h2>
 <h3 id="normaler-modus">Normaler Modus<a class="headerlink" href="#normaler-modus" title="Permanent link">&para;</a></h3>
+<p><img alt="Normaler Orte-Modus" class="img-hero" src="../../../images/avventura/it_LuoghiNormale.png" /></p>
 <p>Das ist der klassische Modus, gedacht für die direkte Arbeit an:</p>
 <ul>
 <li>dem Ortsbaum</li>
@@ -1981,6 +2004,7 @@
 </ul>
 <p>Er ist der beste Modus, um das Abenteuer vorzubereiten und zu bearbeiten.</p>
 <h3 id="interaktiver-modus">Interaktiver Modus<a class="headerlink" href="#interaktiver-modus" title="Permanent link">&para;</a></h3>
+<p><img alt="Interaktiver Orte-Modus" class="img-hero" src="../../../images/avventura/it_LuoghiInterattiva.png" /></p>
 <p>Der Modus <code>Interaktiv</code> wird verfügbar, wenn es im Abenteuer nutzbare interaktive Karten gibt.</p>
 <p>In diesem Modus verlagert sich der Fokus auf die Navigation über Karten:</p>
 <ul>
@@ -2004,15 +2028,26 @@
 <p>Im Baum-Modus kannst du <strong>mit der rechten Maustaste auf einen Ort klicken</strong>, um ein Kontextmenü mit Schnellaktionen direkt auf diesem Knoten zu öffnen.</p>
 <p>Verfügbare Aktionen sind:</p>
 <ul>
-<li><code>Verknüpfung entfernen</code></li>
-<li><code>Verknüpfung hinzufügen</code></li>
 <li><code>Unterort hinzufügen</code></li>
-<li><code>Charakter hinzufügen</code></li>
+<li><code>Präsenz hinzufügen</code></li>
+<li><code>Verknüpfung hinzufügen</code></li>
+<li><code>Verknüpfung entfernen</code></li>
 <li><code>Beziehungsdiagramm erstellen</code></li>
 <li><code>Kampf erstellen</code></li>
 <li><code>Bearbeiten</code></li>
+<li><code>Ort löschen</code></li>
 </ul>
 <p>Dieses Menü ist einer der schnellsten Wege, die Struktur des Abenteuers direkt im Baum aufzubauen.</p>
+<p>In der Praxis kannst du damit den Baum schnell umorganisieren, ohne jedes Mal das vollständige Ortsformular zu öffnen.</p>
+<h3 id="schnelles-umordnen-per-drag-and-drop">Schnelles Umordnen per Drag-and-drop<a class="headerlink" href="#schnelles-umordnen-per-drag-and-drop" title="Permanent link">&para;</a></h3>
+<p>Der Ortsbaum unterstützt außerdem einen schnellen Drag-and-drop-Workflow.</p>
+<p>Du kannst:</p>
+<ul>
+<li>die Reihenfolge von Geschwisterorten ändern</li>
+<li>einen Ort unter einen anderen Ort verschieben</li>
+<li>einen Ort zurück in die Wurzel verschieben, wenn du ihn aus einem Elternzweig herausziehst</li>
+</ul>
+<p>So lässt sich die narrative Struktur bei der Vorbereitung sehr schnell verfeinern.</p>
 <h3 id="filter-und-zusammenfassung">Filter und Zusammenfassung<a class="headerlink" href="#filter-und-zusammenfassung" title="Permanent link">&para;</a></h3>
 <p>Die Seitenleiste zeigt außerdem eine kompakte Zusammenfassung mit:</p>
 <ul>
@@ -2073,6 +2108,19 @@
 <li>an der Wurzel des Abenteuers liegen</li>
 <li>als Unterort eines anderen Ortes existieren</li>
 <li>bei Bedarf an mehreren Stellen der Struktur verknüpft sein</li>
+</ul>
+<p>Das ist zum Beispiel nützlich, wenn du:</p>
+<ul>
+<li>eine ganze Gruppe von Orten unter eine Quest hängen willst</li>
+<li>denselben Ort in mehreren Zweigen des Baums zeigen möchtest</li>
+<li>verschiedene Erzählpfade aufbauen willst, ohne den Datensatz zu duplizieren</li>
+</ul>
+<p>In diesen Fällen wird der Ort <strong>nicht dupliziert</strong>: Im Baum wird nur eine zusätzliche Verknüpfung zum selben Ort angelegt.</p>
+<p>Wenn du eine Verknüpfung entfernst:</p>
+<ul>
+<li>wird der Ort selbst nicht gelöscht</li>
+<li>bei mehreren Eltern wird nur die zusätzliche Verknüpfung entfernt</li>
+<li>verliert der Ort seinen einzigen Elternteil, kehrt er an die Wurzel des Baums zurück</li>
 </ul>
 <p>Das Formular verhindert trotzdem Zyklen, indem es den Ort selbst und seinen Unterbaum automatisch aus der Liste möglicher Eltern ausschließt.</p>
 <h2 id="ortsmarkierungen">Ortsmarkierungen<a class="headerlink" href="#ortsmarkierungen" title="Permanent link">&para;</a></h2>

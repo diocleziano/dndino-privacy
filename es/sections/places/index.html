@@ -663,6 +663,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#reordenacion-rapida-con-arrastrar-y-soltar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reordenación rápida con arrastrar y soltar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#filtros-y-resumen" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1502,6 +1513,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#reordenacion-rapida-con-arrastrar-y-soltar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reordenación rápida con arrastrar y soltar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#filtros-y-resumen" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1970,6 +1992,7 @@
 </ul>
 <h2 id="modos-normal-e-interactivo">Modos Normal e Interactivo<a class="headerlink" href="#modos-normal-e-interactivo" title="Permanent link">&para;</a></h2>
 <h3 id="modo-normal">Modo Normal<a class="headerlink" href="#modo-normal" title="Permanent link">&para;</a></h3>
+<p><img alt="Modo Normal de Lugares" class="img-hero" src="../../../images/avventura/it_LuoghiNormale.png" /></p>
 <p>Es el modo clásico, pensado para trabajar directamente sobre:</p>
 <ul>
 <li>el árbol de lugares</li>
@@ -1981,6 +2004,7 @@
 </ul>
 <p>Es el modo más adecuado para preparar y editar la aventura.</p>
 <h3 id="modo-interactivo">Modo Interactivo<a class="headerlink" href="#modo-interactivo" title="Permanent link">&para;</a></h3>
+<p><img alt="Modo Interactivo de Lugares" class="img-hero" src="../../../images/avventura/it_LuoghiInterattiva.png" /></p>
 <p>El modo <code>Interactivo</code> se activa cuando la aventura dispone de mapas interactivos listos para usar.</p>
 <p>En este modo, el foco pasa a la navegación mediante mapa:</p>
 <ul>
@@ -2004,15 +2028,26 @@
 <p>En el modo árbol puedes <strong>hacer clic derecho sobre un lugar</strong> para abrir un menú contextual con acciones rápidas directamente sobre ese nodo.</p>
 <p>Las acciones disponibles son:</p>
 <ul>
-<li><code>Eliminar enlace</code></li>
-<li><code>Añadir enlace</code></li>
 <li><code>Añadir sublugar</code></li>
-<li><code>Añadir personaje</code></li>
+<li><code>Añadir presencia</code></li>
+<li><code>Añadir enlace</code></li>
+<li><code>Eliminar enlace</code></li>
 <li><code>Crear mapa conceptual</code></li>
 <li><code>Crear combate</code></li>
 <li><code>Editar</code></li>
+<li><code>Eliminar lugar</code></li>
 </ul>
 <p>Este menú es una de las formas más rápidas de construir la estructura de la aventura mientras trabajas en el árbol.</p>
+<p>En la práctica, te permite reorganizar el árbol rápidamente sin abrir cada vez el formulario completo del lugar.</p>
+<h3 id="reordenacion-rapida-con-arrastrar-y-soltar">Reordenación rápida con arrastrar y soltar<a class="headerlink" href="#reordenacion-rapida-con-arrastrar-y-soltar" title="Permanent link">&para;</a></h3>
+<p>El árbol de lugares también admite un flujo rápido mediante arrastrar y soltar.</p>
+<p>Puedes:</p>
+<ul>
+<li>cambiar el orden de los lugares hermanos</li>
+<li>mover un lugar debajo de otro lugar</li>
+<li>devolver un lugar a la raíz si lo arrastras fuera de una rama padre</li>
+</ul>
+<p>Esto hace mucho más rápido ajustar la estructura narrativa mientras preparas la aventura.</p>
 <h3 id="filtros-y-resumen">Filtros y resumen<a class="headerlink" href="#filtros-y-resumen" title="Permanent link">&para;</a></h3>
 <p>La barra lateral también muestra un resumen compacto con:</p>
 <ul>
@@ -2072,6 +2107,19 @@
 <li>estar en la raíz de la aventura</li>
 <li>existir como sublugar de otro lugar</li>
 <li>estar enlazado en más de un punto de la estructura cuando haga falta</li>
+</ul>
+<p>Esto es útil, por ejemplo, cuando quieres:</p>
+<ul>
+<li>colocar un grupo entero de lugares bajo una misión</li>
+<li>mostrar el mismo lugar en más de una rama del árbol</li>
+<li>crear rutas narrativas distintas sin duplicar el registro</li>
+</ul>
+<p>En estos casos, el lugar <strong>no se duplica</strong>: el árbol solo añade un enlace adicional al mismo lugar.</p>
+<p>Cuando eliminas un enlace:</p>
+<ul>
+<li>el lugar no se borra</li>
+<li>si tiene varios padres, solo se elimina el enlace adicional</li>
+<li>si pierde su único padre, vuelve a la raíz del árbol</li>
 </ul>
 <p>El formulario sigue evitando ciclos, excluyendo automáticamente el propio lugar y su subárbol de la lista de posibles padres.</p>
 <h2 id="marcadores-del-lugar">Marcadores del lugar<a class="headerlink" href="#marcadores-del-lugar" title="Permanent link">&para;</a></h2>

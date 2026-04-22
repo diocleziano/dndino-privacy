@@ -663,6 +663,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#reorganisation-rapide-par-glisser-deposer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Réorganisation rapide par glisser-déposer
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#filtres-et-resume" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1502,6 +1513,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#reorganisation-rapide-par-glisser-deposer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Réorganisation rapide par glisser-déposer
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#filtres-et-resume" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1970,6 +1992,7 @@
 </ul>
 <h2 id="modes-normal-et-interactif">Modes Normal et Interactif<a class="headerlink" href="#modes-normal-et-interactif" title="Permanent link">&para;</a></h2>
 <h3 id="mode-normal">Mode Normal<a class="headerlink" href="#mode-normal" title="Permanent link">&para;</a></h3>
+<p><img alt="Mode Normal des Lieux" class="img-hero" src="../../../images/avventura/it_LuoghiNormale.png" /></p>
 <p>Il s'agit du mode classique, pensé pour travailler directement sur :</p>
 <ul>
 <li>l'arbre des lieux</li>
@@ -1981,6 +2004,7 @@
 </ul>
 <p>C'est le mode le plus adapté pour préparer et modifier l'aventure.</p>
 <h3 id="mode-interactif">Mode Interactif<a class="headerlink" href="#mode-interactif" title="Permanent link">&para;</a></h3>
+<p><img alt="Mode Interactif des Lieux" class="img-hero" src="../../../images/avventura/it_LuoghiInterattiva.png" /></p>
 <p>Le mode <code>Interactif</code> devient disponible lorsqu'il existe des cartes interactives utilisables dans l'aventure.</p>
 <p>Dans ce mode, le focus passe à la navigation par carte :</p>
 <ul>
@@ -2004,15 +2028,26 @@
 <p>En mode arborescent, tu peux faire un <strong>clic droit sur un lieu</strong> pour ouvrir un menu contextuel avec des actions rapides directement sur ce nœud.</p>
 <p>Les actions disponibles sont :</p>
 <ul>
-<li><code>Retirer le lien</code></li>
-<li><code>Ajouter un lien</code></li>
 <li><code>Ajouter un sous-lieu</code></li>
-<li><code>Ajouter un personnage</code></li>
+<li><code>Ajouter une présence</code></li>
+<li><code>Ajouter un lien</code></li>
+<li><code>Retirer le lien</code></li>
 <li><code>Créer une carte conceptuelle</code></li>
 <li><code>Créer un combat</code></li>
 <li><code>Modifier</code></li>
+<li><code>Supprimer le lieu</code></li>
 </ul>
 <p>Ce menu est l'un des moyens les plus rapides de construire la structure de l'aventure pendant que tu travailles dans l'arbre.</p>
+<p>En pratique, il te permet de réorganiser l'arbre très vite sans ouvrir à chaque fois le formulaire complet du lieu.</p>
+<h3 id="reorganisation-rapide-par-glisser-deposer">Réorganisation rapide par glisser-déposer<a class="headerlink" href="#reorganisation-rapide-par-glisser-deposer" title="Permanent link">&para;</a></h3>
+<p>L'arbre des lieux prend aussi en charge une méthode rapide par glisser-déposer.</p>
+<p>Tu peux :</p>
+<ul>
+<li>changer l'ordre des lieux frères</li>
+<li>déplacer un lieu sous un autre lieu</li>
+<li>renvoyer un lieu à la racine si tu le fais glisser hors d'une branche parente</li>
+</ul>
+<p>Cela rend la mise au point de la structure narrative beaucoup plus rapide pendant la préparation.</p>
 <h3 id="filtres-et-resume">Filtres et résumé<a class="headerlink" href="#filtres-et-resume" title="Permanent link">&para;</a></h3>
 <p>La barre latérale affiche aussi un résumé compact avec :</p>
 <ul>
@@ -2072,6 +2107,19 @@
 <li>se trouver à la racine de l'aventure</li>
 <li>exister comme sous-lieu d'un autre lieu</li>
 <li>être lié à plusieurs endroits de la structure quand cela a du sens</li>
+</ul>
+<p>Cela est utile, par exemple, si tu veux :</p>
+<ul>
+<li>rattacher tout un groupe de lieux à une quête</li>
+<li>faire apparaître le même lieu dans plusieurs branches de l'arbre</li>
+<li>créer plusieurs parcours narratifs sans dupliquer la fiche</li>
+</ul>
+<p>Dans ces cas, le lieu <strong>n'est pas dupliqué</strong> : l'arbre ajoute simplement un lien supplémentaire vers le même lieu.</p>
+<p>Quand tu retires un lien :</p>
+<ul>
+<li>le lieu lui-même n'est pas supprimé</li>
+<li>s'il a plusieurs parents, seul le lien supplémentaire est retiré</li>
+<li>s'il perd son unique parent, il revient à la racine de l'arbre</li>
 </ul>
 <p>Le formulaire empêche toutefois de créer des cycles, en excluant automatiquement le lieu lui-même et son sous-arbre des parents sélectionnables.</p>
 <h2 id="signalements-du-lieu">Signalements du lieu<a class="headerlink" href="#signalements-du-lieu" title="Permanent link">&para;</a></h2>
