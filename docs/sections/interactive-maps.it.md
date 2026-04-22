@@ -169,6 +169,14 @@ Un marker contiene:
 
 Il marker viene salvato rispetto alle coordinate della mappa e quindi continua a stare nel punto corretto anche se cambi zoom.
 
+I marker cambiano anche colore in base allo stato del luogo collegato, così la mappa comunica meglio l'avanzamento dell'esplorazione a colpo d'occhio:
+
+- un colore per i luoghi `Non visitati`
+- un colore per i luoghi `In visita`
+- un colore per i luoghi `Visitati`
+
+Questi colori sono fissi e non cambiano da tema a tema, così il loro significato resta coerente in tutta l'app.
+
 ## Comportamento dei marker in lettura
 
 Quando non sei in modalità modifica:

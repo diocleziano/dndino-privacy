@@ -169,6 +169,14 @@ Un marqueur contient :
 
 Le marqueur est enregistré relativement aux coordonnées de la carte, et reste donc au bon endroit même si le zoom change.
 
+Les marqueurs changent aussi de couleur selon l'état du lieu lié, ce qui permet de lire plus facilement la progression de l'exploration d'un seul coup d'oeil :
+
+- une couleur pour les lieux `Non visités`
+- une couleur pour les lieux `En visite`
+- une couleur pour les lieux `Visités`
+
+Ces couleurs sont fixes et ne changent pas selon le thème actif, afin que leur signification reste cohérente dans toute l'application.
+
 ## Comportement des marqueurs en lecture
 
 Quand tu n’es pas en mode modification :

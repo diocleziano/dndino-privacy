@@ -169,6 +169,14 @@ Um marcador contém:
 
 O marcador é guardado relativamente às coordenadas do mapa e, por isso, continua a ficar no ponto correto mesmo quando mudas o zoom.
 
+Os marcadores também mudam de cor consoante o estado do local associado, para que o progresso da exploração fique mais legível de relance no mapa:
+
+- uma cor para locais `Não visitados`
+- uma cor para locais `Em visita`
+- uma cor para locais `Visitados`
+
+Estas cores são fixas e não mudam com o tema ativo, para que o significado se mantenha coerente em toda a aplicação.
+
 ## Comportamento dos marcadores em leitura
 
 Quando não estás em modo de edição:

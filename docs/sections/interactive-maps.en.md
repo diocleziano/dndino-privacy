@@ -169,6 +169,14 @@ A marker contains:
 
 The marker is saved relative to the map coordinates and therefore stays in the correct position even when zoom changes.
 
+Markers also change color based on the status of the linked place, so the map gives you a clearer at-a-glance sense of exploration progress:
+
+- one color for `Unvisited` places
+- one color for places `Currently visiting`
+- one color for `Visited` places
+
+These colors are fixed and do not change with the active theme, so their meaning stays consistent across the app.
+
 ## Marker Behavior in Read Mode
 
 When you are not in edit mode:
