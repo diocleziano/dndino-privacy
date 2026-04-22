@@ -50,6 +50,8 @@ e in una struttura a due aree:
 
 ### Modalità Normale
 
+![Modalità Normale Luoghi](../images/avventura/it_LuoghiNormale.png){ .img-hero }
+
 È la modalità classica, pensata per lavorare direttamente su:
 
 - albero dei luoghi
@@ -62,6 +64,8 @@ e in una struttura a due aree:
 È la modalità più adatta per preparare e modificare l’avventura.
 
 ### Modalità Interattiva
+
+![Modalità Interattiva Luoghi](../images/avventura/it_LuoghiInterattiva.png){ .img-hero }
 
 La modalità `Interattiva` si attiva quando nell’avventura esistono mappe interattive disponibili.
 

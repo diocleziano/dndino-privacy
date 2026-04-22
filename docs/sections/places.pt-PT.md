@@ -50,6 +50,8 @@ e em torno de duas áreas:
 
 ### Modo Normal
 
+![Modo Normal dos Locais](../images/avventura/it_LuoghiNormale.png){ .img-hero }
+
 É o modo clássico, pensado para trabalhar diretamente sobre:
 
 - a árvore de locais
@@ -62,6 +64,8 @@ e em torno de duas áreas:
 É o modo mais indicado para preparar e editar a aventura.
 
 ### Modo Interativo
+
+![Modo Interativo dos Locais](../images/avventura/it_LuoghiInterattiva.png){ .img-hero }
 
 O modo `Interativo` fica disponível quando a aventura tem mapas interativos prontos a usar.
 

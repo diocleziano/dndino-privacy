@@ -1,5 +1,7 @@
 # Aventura
 
+![Painel da Aventura](../images/avventura/it_dashboardavventura.png){ .img-hero }
+
 A seção **Aventura** é o centro organizacional de uma campanha no DnDino. É aqui que nasce a estrutura principal do seu trabalho: o título da campanha, sua identidade visual, os personagens vinculados, as sessões, os lugares, as imagens compartilhadas, os mapas e os acessos rápidos aos combates.
 
 !!! tip

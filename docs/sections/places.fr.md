@@ -50,6 +50,8 @@ et de deux zones :
 
 ### Mode Normal
 
+![Mode Normal des Lieux](../images/avventura/it_LuoghiNormale.png){ .img-hero }
+
 Il s'agit du mode classique, pensé pour travailler directement sur :
 
 - l'arbre des lieux
@@ -62,6 +64,8 @@ Il s'agit du mode classique, pensé pour travailler directement sur :
 C'est le mode le plus adapté pour préparer et modifier l'aventure.
 
 ### Mode Interactif
+
+![Mode Interactif des Lieux](../images/avventura/it_LuoghiInterattiva.png){ .img-hero }
 
 Le mode `Interactif` devient disponible lorsqu'il existe des cartes interactives utilisables dans l'aventure.
 

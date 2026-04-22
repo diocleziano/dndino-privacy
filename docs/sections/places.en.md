@@ -50,6 +50,8 @@ and around two main areas:
 
 ### Normal Mode
 
+![Normal Places Mode](../images/avventura/it_LuoghiNormale.png){ .img-hero }
+
 This is the classic mode, designed for directly working on:
 
 - the place tree
@@ -62,6 +64,8 @@ This is the classic mode, designed for directly working on:
 It is the best mode for preparing and editing the adventure.
 
 ### Interactive Mode
+
+![Interactive Places Mode](../images/avventura/it_LuoghiInterattiva.png){ .img-hero }
 
 `Interactive` mode becomes available when the adventure has interactive maps ready to use.
 

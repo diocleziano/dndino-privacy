@@ -1,5 +1,7 @@
 # Adventure
 
+![Adventure Dashboard](../images/avventura/it_dashboardavventura.png){ .img-hero }
+
 The **Adventure** section is the organizational center of a campaign in DnDino. This is where the main structure of your work takes shape: the campaign title, its visual identity, the linked characters, sessions, places, shared images, maps, and quick access to combat.
 
 !!! tip

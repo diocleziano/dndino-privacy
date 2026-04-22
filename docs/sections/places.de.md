@@ -50,6 +50,8 @@ und in zwei Hauptbereiche gegliedert:
 
 ### Normaler Modus
 
+![Normaler Orte-Modus](../images/avventura/it_LuoghiNormale.png){ .img-hero }
+
 Das ist der klassische Modus, gedacht für die direkte Arbeit an:
 
 - dem Ortsbaum
@@ -62,6 +64,8 @@ Das ist der klassische Modus, gedacht für die direkte Arbeit an:
 Er ist der beste Modus, um das Abenteuer vorzubereiten und zu bearbeiten.
 
 ### Interaktiver Modus
+
+![Interaktiver Orte-Modus](../images/avventura/it_LuoghiInterattiva.png){ .img-hero }
 
 Der Modus `Interaktiv` wird verfügbar, wenn es im Abenteuer nutzbare interaktive Karten gibt.
 
