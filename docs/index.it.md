@@ -1,8 +1,31 @@
 # Guida DnDino
 
-Benvenuto nella guida ufficiale di **DnDino**.
+Benvenuto nella guida ufficiale di **DnDino** e **DnDino Hero**.
 
 ![DnDino](images/icons/appicon.png){ .img-logo }
+
+La guida è divisa in due macrosezioni:
+
+- **DnDino**, dedicata al master e alla gestione di avventure, luoghi, combattimenti, regole e materiali.
+- **DnDino Hero**, dedicata ai giocatori e alla scheda del proprio personaggio su iPad.
+
+<div class="guide-product-grid" markdown>
+
+<a class="guide-product-card guide-product-card-dm" href="getting-started/overview/">
+  <span class="guide-product-kicker">Master</span>
+  <strong>DnDino</strong>
+  <span>Prepara e gestisci campagne, personaggi, luoghi, sessioni live e combattimenti.</span>
+</a>
+
+<a class="guide-product-card guide-product-card-hero" href="companion/overview/">
+  <span class="guide-product-kicker">Giocatori</span>
+  <strong>DnDino Hero</strong>
+  <span>Gestisci scheda, incantesimi, attacchi, equipaggiamento, note e risorse del tuo personaggio.</span>
+</a>
+
+</div>
+
+## DnDino
 
 DnDino è un'app pensata per aiutare il master a gestire in modo rapido e ordinato:
 
@@ -17,10 +40,21 @@ DnDino è un'app pensata per aiutare il master a gestire in modo rapido e ordina
 - equipaggiamento
 - incantesimi
 
-Questa guida ti accompagna nelle funzioni principali dell'app, dalle operazioni base fino ai flussi più completi da usare durante la sessione.
+## DnDino Hero
+
+DnDino Hero è l'app companion per il giocatore. Può essere usata insieme a DnDino al tavolo oppure come scheda indipendente.
+
+Con DnDino Hero puoi:
+
+- creare e gestire uno o più personaggi
+- compilare identità, specie, background, classi, sottoclassi e multiclasse
+- gestire punti ferita, dadi vita, ispirazione eroica, condizioni e riposi
+- consultare caratteristiche, abilità, tiri salvezza, attacchi, incantesimi, talenti, equipaggiamento e note
+- importare ed esportare contenuti riutilizzabili come classi, specie, background, talenti, regole e incantesimi
+- eseguire backup e ripristino tramite iCloud quando abilitato
 
 !!! note
-    La guida è organizzata per aree funzionali. Se stai iniziando adesso, conviene partire dalla sezione **Iniziare** e poi passare a **Eroi, PNG e Mostri**, **Luoghi** e **Combattimento**.
+    Per ora la sezione **DnDino Hero** parte in italiano. Le altre lingue verranno aggiunte mano mano, dopo aver stabilizzato contenuti e terminologia.
 
 ## Cosa puoi fare con DnDino
 
@@ -72,3 +106,4 @@ In questa sezione trovi casi d'uso concreti per aiutarti a comprendere meglio i 
 
 - usa la barra di ricerca per trovare velocemente una funzione
 - consulta l'indice laterale per passare da un'area all'altra
+- scegli prima la macrosezione corretta: **DnDino** per il master, **DnDino Hero** per il giocatore

@@ -189,6 +189,26 @@ In den Einstellungen gibt es außerdem eine Logik, die an die Live-Session gekop
 
 Diese Funktion gilt nur, wenn eine aktive Live-Session existiert, und ist sehr nützlich, um das Erkundungstracking konsistent zu halten.
 
+## Eine bereits gespielte Live-Sitzung nachtragen
+
+Wenn du während des Spiels vergessen hast, die Live-Sitzung zu starten, kannst du sie über die Karte **Sitzungen** im Abenteuer-Dashboard manuell nachtragen.
+
+Die nachgetragene Sitzung ist keine einfache Textnotiz: Sie wird als Live-Sitzung gespeichert und nutzt die echten Daten, die bereits im Abenteuer vorhanden sind.
+
+Beim Erstellen kannst du festlegen:
+
+- Startzeit und Endzeit
+- während der Sitzung besuchte Orte
+- Sitzungsnotizen
+
+DnDino übernimmt automatisch abgeschlossene Kämpfe, die im ausgewählten Zeitraum begonnen haben. Dadurch können die Sitzungsstatistiken Schaden, besiegte Gegner, Kampfdauer und durchschnittliche Zugzeiten aus den echten Kämpfen verwenden.
+
+Diese Funktion ist dafür gedacht, eine gespielte Sitzung nachzutragen, ohne den Wert der Statistiken zu verlieren.
+
+## Eine Sitzung löschen
+
+In der Sitzungsliste hat jede Zeile eine Löschtaste. Vor dem Löschen zeigt DnDino eine Bestätigung, da die gespeicherte Sitzung dauerhaft entfernt wird.
+
 ## Live-Zusammenfassung
 
 ![Live-Sitzungsübersicht](../images/en_sessionelive_riepilogo_1.png){ .img-shot }

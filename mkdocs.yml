@@ -44,11 +44,12 @@ plugins:
           nav:
             - Home: index.md
             - Iniziare: getting-started/overview.md
-            - Sezioni:
+            - DnDino:
                 - Home Page: sections/homepage.md
                 - Topbar: sections/topbar.md
                 - Regole ed Equipaggiamento: sections/rules-equipment.md
                 - Eroi, PNG e Mostri: sections/characters.md
+                - Importazione ed esportazione: sections/import-export.md
                 - Avventura: sections/adventure.md
                 - Luoghi e Quest: sections/places.md
                 - Mappe concettuali: sections/concept-maps.md
@@ -56,6 +57,12 @@ plugins:
                 - Combattimento: sections/combat.md
                 - Sessione live: sections/live-session.md
                 - Impostazioni: sections/settings.md
+            - DnDino Hero:
+                - Panoramica: companion/overview.md
+                - Scheda personaggio: companion/character-sheet.md
+                - Librerie riutilizzabili: companion/libraries.md
+                - Combattimento e tavolo: companion/table-play.md
+                - Import, export e backup: companion/import-backup.md
             - Supporto:
                 - FAQ: support/faq.md
                 - Glossario: support/glossary.md
@@ -74,6 +81,7 @@ plugins:
                 - Top Bar: sections/topbar.md
                 - Rules and Equipment: sections/rules-equipment.md
                 - Heroes, NPCs, and Monsters: sections/characters.md
+                - Import and Export: sections/import-export.md
                 - Adventure: sections/adventure.md
                 - Places and Quests: sections/places.md
                 - Concept Maps: sections/concept-maps.md
@@ -98,6 +106,7 @@ plugins:
                 - Topbar: sections/topbar.md
                 - Regles et equipement: sections/rules-equipment.md
                 - Heros, PNJ et Monstres: sections/characters.md
+                - Import et export: sections/import-export.md
                 - Aventure: sections/adventure.md
                 - Lieux et Quetes: sections/places.md
                 - Cartes conceptuelles: sections/concept-maps.md
@@ -122,6 +131,7 @@ plugins:
                 - Topbar: sections/topbar.md
                 - Regeln und Ausrustung: sections/rules-equipment.md
                 - Helden, NSCs und Monster: sections/characters.md
+                - Import und Export: sections/import-export.md
                 - Abenteuer: sections/adventure.md
                 - Orte und Quests: sections/places.md
                 - Konzeptkarten: sections/concept-maps.md
@@ -146,6 +156,7 @@ plugins:
                 - Barra superior: sections/topbar.md
                 - Reglas y equipamiento: sections/rules-equipment.md
                 - Heroes, PNJ y Monstruos: sections/characters.md
+                - Importacion y exportacion: sections/import-export.md
                 - Aventura: sections/adventure.md
                 - Lugares y Misiones: sections/places.md
                 - Mapas conceptuales: sections/concept-maps.md
@@ -172,6 +183,7 @@ plugins:
                 - Topbar: sections/topbar.md
                 - Regras e equipamento: sections/rules-equipment.md
                 - Herois, NPCs e Monstros: sections/characters.md
+                - Importacao e exportacao: sections/import-export.md
                 - Aventura: sections/adventure.md
                 - Locais e Quests: sections/places.md
                 - Mapas conceptuais: sections/concept-maps.md
@@ -198,6 +210,7 @@ plugins:
                 - Topbar: sections/topbar.md
                 - Regras e equipamento: sections/rules-equipment.md
                 - Herois, NPCs e Monstros: sections/characters.md
+                - Importacao e exportacao: sections/import-export.md
                 - Aventura: sections/adventure.md
                 - Locais e Quests: sections/places.md
                 - Mapas conceituais: sections/concept-maps.md

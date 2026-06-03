@@ -189,6 +189,26 @@ Dans les réglages, il existe aussi une logique liée à la session live : lorsq
 
 Cette fonction ne vaut que lorsqu’une session live active existe et elle est très utile pour garder un suivi cohérent de l’exploration.
 
+## Recréer une session live déjà jouée
+
+Si tu as oublié de lancer la session live pendant la partie, tu peux la recréer manuellement depuis la carte **Sessions** du tableau de bord de l’aventure.
+
+La session recréée n’est pas une simple note : elle est sauvegardée comme session live et utilise les données réelles déjà présentes dans l’aventure.
+
+Lors de la création, tu peux indiquer :
+
+- l’heure de début et l’heure de fin
+- les lieux visités pendant la session
+- les notes de session
+
+DnDino inclut automatiquement les combats terminés qui ont commencé dans l’intervalle choisi. Les statistiques de la session peuvent ainsi utiliser les dégâts, les ennemis vaincus, la durée des combats et les temps moyens des tours déjà enregistrés par les combats réels.
+
+Cette fonction sert à récupérer une session jouée sans perdre la valeur des statistiques.
+
+## Supprimer une session
+
+Dans la liste des sessions, chaque ligne dispose d’un bouton de suppression. Avant la suppression, DnDino affiche une confirmation, car l’opération supprime définitivement la session sauvegardée.
+
 ## Résumé live
 
 ![Résumé de session live](../images/en_sessionelive_riepilogo_1.png){ .img-shot }

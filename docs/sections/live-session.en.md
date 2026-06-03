@@ -190,6 +190,26 @@ There is also a live-session-related rule in Settings: when a place is marked as
 
 This only applies when a live session is active, and it is very useful for keeping exploration tracking consistent.
 
+## Recreating a Live Session After Play
+
+If you forgot to start the live session during play, you can recreate it manually from the **Sessions** card in the adventure dashboard.
+
+The recreated session is not just a text note: it is saved as a live session and uses the real data already stored in the adventure.
+
+When creating it, you can set:
+
+- start time and end time
+- places visited during the session
+- session notes
+
+DnDino automatically includes completed combats that started within the selected interval. This lets the session statistics use damage, defeated enemies, encounter duration, and average turn times already recorded by the real combats.
+
+This feature is meant to recover a played session without losing the value of the statistics.
+
+## Deleting a Session
+
+In the session list, each row has a delete button. Before removing it, DnDino shows a confirmation because the saved session will be permanently deleted.
+
 ## Live Summary
 
 ![Live session summary](../images/en_sessionelive_riepilogo_1.png){ .img-shot }

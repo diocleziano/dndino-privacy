@@ -189,6 +189,26 @@ Nas definições existe também uma lógica ligada à sessão live: quando um lo
 
 Esta função só se aplica quando existe uma sessão live ativa e é muito útil para manter coerente o acompanhamento da exploração.
 
+## Recriar uma sessão live já jogada
+
+Se te esqueceste de iniciar a sessão live durante a partida, podes recriá-la manualmente a partir do cartão **Sessões** no painel da aventura.
+
+A sessão recriada não é uma simples nota: é guardada como sessão live e usa os dados reais que já existem na aventura.
+
+Ao criá-la, podes indicar:
+
+- hora de início e hora de fim
+- locais visitados durante a sessão
+- notas da sessão
+
+DnDino inclui automaticamente os combates concluídos que começaram dentro do intervalo selecionado. Assim, as estatísticas da sessão podem usar dano, inimigos derrotados, duração dos combates e tempos médios dos turnos já registados pelos combates reais.
+
+Esta função serve para recuperar uma sessão jogada sem perder o valor das estatísticas.
+
+## Eliminar uma sessão
+
+Na lista de sessões, cada linha tem um botão de eliminação. Antes de apagar, DnDino mostra uma confirmação, porque a operação remove definitivamente a sessão guardada.
+
 ## Resumo live
 
 ![Resumo da sessão live](../images/en_sessionelive_riepilogo_1.png){ .img-shot }
