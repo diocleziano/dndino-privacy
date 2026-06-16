@@ -7,7 +7,7 @@ Benvenuto nella guida ufficiale di **DnDino** e **DnDino Hero**.
 La guida è divisa in due macrosezioni:
 
 - **DnDino**, dedicata al master e alla gestione di avventure, luoghi, combattimenti, regole e materiali.
-- **DnDino Hero**, dedicata ai giocatori e alla scheda del proprio personaggio su iPad.
+- **DnDino Hero**, dedicata ai giocatori e alla scheda del proprio personaggio su iPad e iPhone.
 
 <div class="guide-product-grid" markdown>
 
@@ -20,7 +20,7 @@ La guida è divisa in due macrosezioni:
 <a class="guide-product-card guide-product-card-hero" href="companion/overview/">
   <span class="guide-product-kicker">Giocatori</span>
   <strong>DnDino Hero</strong>
-  <span>Gestisci scheda, incantesimi, attacchi, equipaggiamento, note e risorse del tuo personaggio.</span>
+  <span>Gestisci scheda, incantesimi, attacchi, equipaggiamento, note, chat DM e collegamento locale con DnDino.</span>
 </a>
 
 </div>
@@ -51,6 +51,9 @@ Con DnDino Hero puoi:
 - gestire punti ferita, dadi vita, ispirazione eroica, condizioni e riposi
 - consultare caratteristiche, abilità, tiri salvezza, attacchi, incantesimi, talenti, equipaggiamento e note
 - importare ed esportare contenuti riutilizzabili come classi, specie, background, talenti, regole e incantesimi
+- collegarti localmente a DnDino durante la sessione
+- sincronizzare PF, condizioni, ispirazione eroica e dati di combattimento con il master
+- usare una chat privata con il DM
 - eseguire backup e ripristino tramite iCloud quando abilitato
 
 !!! note

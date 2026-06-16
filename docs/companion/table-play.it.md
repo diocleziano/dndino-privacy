@@ -20,6 +20,7 @@ La sezione **Combattimento** raccoglie le informazioni che servono più spesso:
 - incantesimi preparati
 - slot incantesimo
 - privilegi e risorse consumabili
+- tiri salvezza contro la morte, quando il personaggio è a 0 PF
 
 ## Attacchi
 
@@ -37,8 +38,12 @@ Ogni attacco può avere:
 - danno principale
 - danni aggiuntivi
 - bonus ai danni
+- progressioni di classe usate nei danni o nei bonus
+- eventuali danni aggiuntivi con tipo di danno separato
 
 La visualizzazione mostra il bonus totale e una sintesi dei modificatori che lo compongono.
+
+Se l'arma ha una padronanza attiva, la scheda mostra la padronanza in modo compatto. La descrizione completa può essere consultata senza riempire tutta la card dell'attacco.
 
 ## Incantesimi
 
@@ -71,18 +76,47 @@ Le condizioni sono gestite manualmente.
 
 L'app importa la lista delle condizioni da DnDino, ma non applica automaticamente logiche di rimozione o effetti meccanici. Questo lascia il controllo al giocatore e al master.
 
-## Comunicazione locale
+## Collegamento locale con DnDino
 
 La comunicazione con DnDino è pensata per rimanere locale.
 
-I messaggi previsti possono riguardare:
+Il master avvia il collegamento dalla sezione dell'avventura in DnDino. Hero cerca la sessione sulla rete locale, mostra master e avventura trovati e permette di inviare il personaggio attivo.
 
-- inizio combattimento
-- fine combattimento
-- applicazione o rimozione condizioni
-- aggiornamento PF e PF temporanei
+Al primo collegamento DnDino può chiedere conferma:
+
+- per autorizzare il dispositivo
+- per importare il personaggio come nuovo
+- per associarlo a un personaggio già esistente
+
+L'associazione usa identificativi interni, non solo il nome del personaggio. Questo evita problemi se il nome viene modificato in seguito.
+
+Quando il collegamento è già stato autorizzato, Hero prova a riconnettersi automaticamente quando torna in primo piano. La hero della scheda mostra anche l'ultimo DnDino collegato, così puoi ricollegarti più rapidamente.
+
+## Sincronizzazione durante il gioco
+
+La sincronizzazione può essere bidirezionale.
+
+Hero può inviare a DnDino:
+
+- PF attuali, massimi e temporanei
+- classe armatura
+- condizioni
+- dadi vita spesi
 - ispirazione eroica
-- esperienza
-- testi, immagini o contenuti da importare
 
-Questa parte verrà estesa progressivamente.
+DnDino può aggiornare Hero con gli stessi dati. Se è attivo un combattimento, DnDino considera il personaggio del combattimento come sorgente operativa. Quando Hero si riconnette, DnDino invia lo stato attuale del personaggio collegato.
+
+Le notifiche di Hero cercano di descrivere cosa è successo:
+
+- danni subiti
+- cure ricevute
+- PF temporanei aggiornati
+- ispirazione eroica ricevuta o rimossa
+- condizioni applicate
+- scheda aggiornata
+
+## Chat privata
+
+La sezione **Messaggio privato al DM** appare quando Hero è collegato.
+
+Da qui il giocatore può scrivere al DM. Su DnDino il master riceve una notifica e può aprire la conversazione. La chat resta distinta per personaggio e dispositivo, così due dispositivi con lo stesso account possono usare conversazioni diverse.

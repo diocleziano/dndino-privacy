@@ -76,7 +76,7 @@ plugins:
           nav:
             - Home: index.md
             - Getting Started: getting-started/overview.md
-            - Sections:
+            - DnDino:
                 - Home Page: sections/homepage.md
                 - Top Bar: sections/topbar.md
                 - Rules and Equipment: sections/rules-equipment.md
@@ -89,6 +89,12 @@ plugins:
                 - Combat: sections/combat.md
                 - Live Session: sections/live-session.md
                 - Settings: sections/settings.md
+            - DnDino Hero:
+                - Overview: companion/overview.md
+                - Character Sheet: companion/character-sheet.md
+                - Reusable Libraries: companion/libraries.md
+                - Combat and Table Play: companion/table-play.md
+                - Import, Export, and Backup: companion/import-backup.md
             - Support:
                 - FAQ: support/faq.md
                 - Glossary: support/glossary.md
@@ -101,7 +107,7 @@ plugins:
           nav:
             - Accueil: index.md
             - Demarrer: getting-started/overview.md
-            - Sections:
+            - DnDino:
                 - Page d'accueil: sections/homepage.md
                 - Topbar: sections/topbar.md
                 - Regles et equipement: sections/rules-equipment.md
@@ -114,6 +120,12 @@ plugins:
                 - Combat: sections/combat.md
                 - Session en direct: sections/live-session.md
                 - Reglages: sections/settings.md
+            - DnDino Hero:
+                - Vue d'ensemble: companion/overview.md
+                - Fiche personnage: companion/character-sheet.md
+                - Bibliotheques reutilisables: companion/libraries.md
+                - Combat et table: companion/table-play.md
+                - Import, export et sauvegarde: companion/import-backup.md
             - Support:
                 - FAQ: support/faq.md
                 - Glossaire: support/glossary.md
@@ -126,7 +138,7 @@ plugins:
           nav:
             - Startseite: index.md
             - Einstieg: getting-started/overview.md
-            - Bereiche:
+            - DnDino:
                 - Home: sections/homepage.md
                 - Topbar: sections/topbar.md
                 - Regeln und Ausrustung: sections/rules-equipment.md
@@ -139,6 +151,12 @@ plugins:
                 - Kampf: sections/combat.md
                 - Live-Sitzung: sections/live-session.md
                 - Einstellungen: sections/settings.md
+            - DnDino Hero:
+                - Ubersicht: companion/overview.md
+                - Charakterbogen: companion/character-sheet.md
+                - Wiederverwendbare Bibliotheken: companion/libraries.md
+                - Kampf und Spieltisch: companion/table-play.md
+                - Import, Export und Backup: companion/import-backup.md
             - Support:
                 - FAQ: support/faq.md
                 - Glossar: support/glossary.md
@@ -151,7 +169,7 @@ plugins:
           nav:
             - Inicio: index.md
             - Primeros pasos: getting-started/overview.md
-            - Secciones:
+            - DnDino:
                 - Pagina de inicio: sections/homepage.md
                 - Barra superior: sections/topbar.md
                 - Reglas y equipamiento: sections/rules-equipment.md
@@ -164,6 +182,12 @@ plugins:
                 - Combate: sections/combat.md
                 - Sesion en vivo: sections/live-session.md
                 - Ajustes: sections/settings.md
+            - DnDino Hero:
+                - Panoramica: companion/overview.md
+                - Hoja de personaje: companion/character-sheet.md
+                - Bibliotecas reutilizables: companion/libraries.md
+                - Combate y mesa: companion/table-play.md
+                - Importacion, exportacion y copia: companion/import-backup.md
             - Soporte:
                 - FAQ: support/faq.md
                 - Glosario: support/glossary.md
@@ -178,7 +202,7 @@ plugins:
           nav:
             - Inicio: index.md
             - Comecar: getting-started/overview.md
-            - Secoes:
+            - DnDino:
                 - Pagina inicial: sections/homepage.md
                 - Topbar: sections/topbar.md
                 - Regras e equipamento: sections/rules-equipment.md
@@ -191,6 +215,12 @@ plugins:
                 - Combate: sections/combat.md
                 - Sessao live: sections/live-session.md
                 - Definicoes: sections/settings.md
+            - DnDino Hero:
+                - Visao geral: companion/overview.md
+                - Ficha de personagem: companion/character-sheet.md
+                - Bibliotecas reutilizaveis: companion/libraries.md
+                - Combate e mesa: companion/table-play.md
+                - Importacao, exportacao e backup: companion/import-backup.md
             - Suporte:
                 - FAQ: support/faq.md
                 - Glossario: support/glossary.md
@@ -205,7 +235,7 @@ plugins:
           nav:
             - Inicio: index.md
             - Primeiros passos: getting-started/overview.md
-            - Secoes:
+            - DnDino:
                 - Pagina inicial: sections/homepage.md
                 - Topbar: sections/topbar.md
                 - Regras e equipamento: sections/rules-equipment.md
@@ -218,6 +248,12 @@ plugins:
                 - Combate: sections/combat.md
                 - Sessao live: sections/live-session.md
                 - Configuracoes: sections/settings.md
+            - DnDino Hero:
+                - Visao geral: companion/overview.md
+                - Ficha de personagem: companion/character-sheet.md
+                - Bibliotecas reutilizaveis: companion/libraries.md
+                - Combate e mesa: companion/table-play.md
+                - Importacao, exportacao e backup: companion/import-backup.md
             - Suporte:
                 - FAQ: support/faq.md
                 - Glossario: support/glossary.md
@@ -247,11 +283,12 @@ extra_css:
 nav:
   - Home: index.md
   - Getting Started: getting-started/overview.md
-  - Sections:
+  - DnDino:
       - Home Page: sections/homepage.md
       - Top Bar: sections/topbar.md
       - Rules and Equipment: sections/rules-equipment.md
       - Heroes, NPCs, and Monsters: sections/characters.md
+      - Import and Export: sections/import-export.md
       - Adventure: sections/adventure.md
       - Places and Quests: sections/places.md
       - Concept Maps: sections/concept-maps.md
@@ -259,6 +296,12 @@ nav:
       - Combat: sections/combat.md
       - Live Session: sections/live-session.md
       - Settings: sections/settings.md
+  - DnDino Hero:
+      - Overview: companion/overview.md
+      - Character Sheet: companion/character-sheet.md
+      - Reusable Libraries: companion/libraries.md
+      - Combat and Table Play: companion/table-play.md
+      - Import, Export, and Backup: companion/import-backup.md
   - Support:
       - FAQ: support/faq.md
       - Glossary: support/glossary.md

@@ -57,6 +57,23 @@ Le progressioni di tipo risorsa possono mostrare residui e totale, con pulsanti 
 !!! note
     I bonus dichiarati nelle progressioni non vengono applicati automaticamente a caratteristiche, attacchi o altre statistiche. Vanno aggiunti manualmente dove devono incidere.
 
+Le progressioni di tipo dado o bonus possono essere richiamate anche negli attacchi, per costruire danni aggiuntivi o modificatori legati alla classe.
+
+## Bonus dei privilegi
+
+I privilegi di classe e alcune liste libere possono mostrare un bonus costruito da più parti.
+
+Un bonus può includere:
+
+- tiro di dado
+- livello della classe
+- bonus di competenza
+- modificatore di caratteristica
+- valore libero
+- progressione di classe di tipo dado o bonus
+
+Puoi anche assegnare un nome al totale del bonus, utile quando vuoi mostrare in scheda una formula compatta come `1d10 + 5`.
+
 ## Specie
 
 Le specie sono riutilizzabili e possono contenere:
@@ -95,8 +112,19 @@ DnDino Hero prevede sezioni generali per:
 
 Questi elementi possono essere importati, esportati e associati al personaggio quando servono.
 
+Gli incantesimi possono essere associati al personaggio, marcati come preparati o non preparati e mostrati in scheda solo quando sono realmente disponibili.
+
 ## Importazione ed esportazione
 
 Le librerie principali possono essere esportate e importate in JSON, così puoi spostare contenuti tra dispositivi o recuperarli da DnDino.
 
 In caso di nome già esistente, l'importazione deve chiedere come procedere, evitando sovrascritture involontarie.
+
+Sono previste importazione ed esportazione per:
+
+- classi
+- specie
+- background
+- incantesimi
+- talenti
+- regole
